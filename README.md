@@ -1,6 +1,5 @@
 # 寒页外卖（苍穹外卖套壳升级版）
 
-b站项目演示：[寒页外卖](https://www.bilibili.com/video/BV1SM4m1U7eR)
 
 ![image](image/theme.png)
 
