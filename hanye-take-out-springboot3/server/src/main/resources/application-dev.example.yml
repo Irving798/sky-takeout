@@ -1,0 +1,24 @@
+server:
+  port: 8081
+
+hanye:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hanye_take_out
+    username: your_mysql_username
+    password: your_mysql_password
+  redis:
+    host: localhost
+    port: 6379
+    password:
+    database: 0
+  wechat:
+    appid: your_wechat_appid
+    secret: your_wechat_secret
+    mchid: your_merchant_id
+    mchSerialNo: your_merchant_serial_no
+    privateKeyFilePath: C:\path\to\apiclient_key.pem
+    apiV3Key: your_api_v3_key
+    weChatPayCertFilePath: C:\path\to\wechatpay_cert.pem
+    notifyUrl: https://example.com/notify/paySuccess
+    refundNotifyUrl: https://example.com/notify/refundSuccess

@@ -1,0 +1,63 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Java / Maven / Gradle build output
+target/
+build/
+out/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Node / frontend build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# Local config and secrets
+*.local
+*.env
+*.pem
+*.key
+*.p12
+*.jks
+hanye-take-out-springboot3/server/src/main/resources/application-dev.yml
+
+# IDE files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.iws
+*.iml
+*.ipr
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Spring / STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
